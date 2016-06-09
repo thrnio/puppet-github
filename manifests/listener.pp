@@ -66,6 +66,5 @@ class github::listener {
     priority => "20",
     docroot  => "${wwwroot}/public",
     ssl      => false,
-    template => "github/github-listener.conf.erb",
   }
 }
